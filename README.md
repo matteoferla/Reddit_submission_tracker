@@ -9,10 +9,11 @@ Run on a machine that will be shut down. Don't expose it to the world as a flask
 
 Requires Python 3.7 (has f strings).
 
-In order to use the reddit API some variables are env required: REDDIT_CLIENT_ID, REDDIT_CLIENT_SECRET, REDDIT_PASSWORD and REDDIT_USERNAME.
+In order to use the reddit API some variables are env required: `REDDIT_CLIENT_ID`, `REDDIT_CLIENT_SECRET`, `REDDIT_PASSWORD` and `REDDIT_USERNAME`.
 These are obtained by registering for using Reddit API.
 
-  REDDIT_CLIENT_ID='∗∗∗∗∗∗∗∗∗∗∗∗∗∗' REDDIT_CLIENT_SECRET="∗∗∗∗∗∗∗∗∗∗∗∗∗-∗_∗∗∗∗∗∗∗∗∗∗∗" REDDIT_PASSWORD='∗∗∗∗∗∗∗∗∗∗∗' REDDIT_USERNAME='∗∗∗∗∗∗∗∗∗∗∗' python3 app.py > log.txt &
+    REDDIT_CLIENT_ID='∗∗∗∗∗∗∗∗∗∗∗∗∗∗' REDDIT_CLIENT_SECRET='∗∗∗∗∗∗∗∗∗∗∗∗∗-∗_∗∗∗∗∗∗∗∗∗∗∗' REDDIT_PASSWORD='∗∗∗∗∗∗∗∗∗∗∗' REDDIT_USERNAME='∗∗∗∗∗∗∗∗∗∗∗' python3 app.py > log.txt &
+  
 
 ## Cmds
 Runs an API that can track a given Reddit submission for a day every 5 minutes, logging the votes and comments.
